@@ -60,7 +60,7 @@ ostream& operator<<(ostream& o, const wastring& s)
       switch (char(*p)) {
         case '\n': o << "\\n"; break;
         case '\r': o << "\\r"; break;
-        case '\t': o << "\\t"; break
+        case '\t': o << "\\t"; break;
         default: o << "\\x" << hex << setw(2) << unsigned(*p);
       }
   }
