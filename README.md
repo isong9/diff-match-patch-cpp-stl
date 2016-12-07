@@ -20,4 +20,6 @@ Compile and run the speedtest - requires the files speedtest1.txt and speedtest2
 
     g++ speedtest.cpp -o speedtest && ./speedtest
 
-추가    
+추가   
+
+이슈 수정 
