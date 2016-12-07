@@ -31,6 +31,7 @@ using namespace std;
 
 struct wastring : wstring  // The same as wstring, but can be constructed from char* (to use ASCII strings in the test functions)
 {
+  //  wastring() {}
   wastring() {}
   wastring(const wstring& s) : wstring(s) {}
   wastring(const value_type* s) : wstring(s) {}
