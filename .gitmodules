@@ -1,0 +1,6 @@
+[submodule "lib"]
+	path = lib
+	url = https://github.com/isong9/diff-match-patch-cpp-stl.git
+[submodule "lib/diff-match-patch-cpp-stl"]
+	path = lib/diff-match-patch-cpp-stl
+	url = https://github.com/isong9/diff-match-patch-cpp-stl.git
